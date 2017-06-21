@@ -10,19 +10,44 @@
   </head>
   <body>
 
-    <div class="row">
-      <div class="column text-center">
-        <img id="logo" src="/assets/img/marknubot-logo.png" alt="logo">
-      </div>
+    <div class="main">
+      <div class="row align-middle align-center">
+        <div class="column small-12 text-center ">
+          <img id="logo" src="/assets/img/marknubot-avatar.png" alt="logo">
+        </div>
     
-    </div>
-    <div class="row">
-      <div class="column text-center">
-        <p>¡Hola! Soy Marknu Bot y voy a ayudarte a aumentar los ingresos de tu negocio <br>recomendándote acciones personalizadas para ti</p><br>
-        <a href="https://goo.gl/tzMq5F"><img src="/assets/img/boton.png" alt="link a Marknu Bot"></a>
+        <div class="column small-12 medium-6 text-center flex-child-grow">
+          <div class="callout">
+            <p class="lead">¡Hola! Soy Marknu Bot y voy a ayudarte a aumentar los ingresos de tu negocio, recomendándote acciones personalizadas para ti</p>
+          </div>
+          <div class="callout">
+            <p>Para ver más detalles, visualiza el vídeo. Para empezar a chatear conmigo, haz click en el botón azul</p>
+          </div>
+          <a href="https://goo.gl/tzMq5F"><img src="/assets/img/boton.png" alt="link a Marknu Bot"></a>
+        </div>
+        <div class="column text-center small-12 medium-6">
+          <a data-open="marknubot-video"><img id="video-preview" src="/assets/img/marknubot-video-preview.png" alt="marknubot video screenshot" width="800"></a>
+            <div class="small reveal" id="marknubot-video" data-reveal>
+              <div class="responsive-embed">
+                <iframe src="https://player.vimeo.com/video/222474044" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+              <button class="close-button" data-close aria-label="Cerrar ventana" type="button">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+              </div>
     
-      </div>
+       </div>
+    
+    
+        <footer>
+          <div class="column">
+            <div class="callout">
+                <p>Carlos Marchena © 2017</p>
+            </div>
     </div>
+        </footer>
+      </div>
+      </div>
     
 
     <script src="assets/js/app.js"></script>
